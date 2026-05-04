@@ -1,15 +1,15 @@
-name: 'UUID Action'
-description: 'Generate UUIDs.'
+name: "UUID Action"
+description: "Generate UUIDs."
 inputs:
   name:
-    description: 'create a UUID using a name.'
+    description: "create a UUID using a name."
     required: false
   namespace:
-    description: 'create a UUID using a namespace.'
+    description: "create a UUID using a namespace."
     required: false
 outputs:
   uuid:
-    description: 'the generated UUID.'
+    description: "the generated UUID."
 runs:
-  using: 'node20'
-  main: 'dist/index.js'
+  using: "node24"
+  main: "dist/index.js"
